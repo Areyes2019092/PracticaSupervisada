@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #d4dcff;
 }
 
 header {
-  background-color: #333;
+  background-color: #202f74;
   color: #fff;
   padding: 10px;
   text-align: right;
@@ -27,7 +27,6 @@ header {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .titulo-seccion {

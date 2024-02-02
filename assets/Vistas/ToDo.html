@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contactos</title>
+    <link rel="stylesheet" href="../Estilos/contactos.css">
+    <link rel="stylesheet" href="../Estilos/ToDo.css">
+</head>
+<body>
+    <header>
+        <div class="header-buttons">
+            <a class="CerrarSecion" href="../../Index.html">Cerrar Sesión</a>
+            <a class="Contactos" href="../Vistas/Contactos.html">Contactos</a>
+            <a class="Fav" href="../Vistas/Favoritos.html">Favoritos</a>
+            <button id="info-usuario-modal">User</button>
+        </div>
+    </header>
+    <div id="ventana-info-usuario-modal" class="modal">
+        <div class="modal-content">
+            <h2>Usuario</h2><br>
+            <form id="modal-user">
+                <p><strong>Nombre:</strong> Angel Daniel Reyes Colindres</p>
+                <p><strong>Correo:</strong> areyes-2019092@kinal.edu.gt</p>
+                <p><strong>Edad:</strong> 17</p>
+                <p><strong>Telefono:</strong> 5235-5214</p>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>ToDo List</h1>
+        <input type="text" id="taskInput" placeholder="Agregar nueva tarea">
+        <button class="buttonadd" onclick="addTask()">Agregar tarea</button>
+        <ul id="taskList"></ul>
+      </div>
+
+<script src="../Js/ToDo.js"></script>
+<script src="../Js/contactos.js"></script>
+
+</body>
+</html>

@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #d4dcff;
 }
 
 header {
-  background-color: #333;
+  background-color: #202f74;
   color: #fff;
   padding: 10px;
   text-align: right;
@@ -27,7 +27,7 @@ header {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(186, 66, 66, 0.1);
 }
 
 .titulo-seccion {
@@ -131,7 +131,7 @@ ul {
 .detalle-btn3,
 .detalle-btn4,
 .detalle-btn5 {
-  background-color: #333;
+  background-color: #d02d2d;
   border: none;
   color: white;
   padding: 8px 16px;
@@ -147,7 +147,7 @@ ul {
 .detalle-btn3:hover,
 .detalle-btn4:hover,
 .detalle-btn5:hover {
-  background-color: #555;
+  background-color: #855151;
 }
 
 .detalles {
