@@ -1,2 +1,0 @@
-# PracticaSupervisada
-Tarea 1

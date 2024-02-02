@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+.header-buttons a,
+.header-buttons button {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-seccion {
+    margin-bottom: 20px;
+}
+
+.titulo-seccion h1 {
+    color: #333;
+}
+
+.contenido-seccion {
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto-container {
+    background-color: #eee;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ptelefono {
+    margin: 0 10px;
+}
+
+.detalle-btn1, .detalle-btn2, .detalle-btn3, .detalle-btn4, .detalle-btn5 {
+    background-color: #333; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.detalle-btn1:hover, .detalle-btn2:hover, .detalle-btn3:hover, .detalle-btn4:hover, .detalle-btn5:hover {
+    background-color: #555; 
+}
+
+
+#agregar-contacto {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
