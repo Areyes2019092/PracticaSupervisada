@@ -38,4 +38,27 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-``;
+var btns = document.querySelectorAll('button[class^="detalle-btn"]');
+var modals = document.querySelectorAll('div[id^="myModal"]');
+
+// Para cada botón, agregar un evento clic
+btns.forEach(function (btn, index) {
+  btn.onclick = function () {
+    modals[index].style.display = "block";
+  };
+});
+
+modals.forEach(function (modal) {
+  var span = modal.querySelector(".close");
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
+});
+
+window.onclick = (function (event) {
+  modals.forEach(function (modal) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  });
+})``;
