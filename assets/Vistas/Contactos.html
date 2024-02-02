@@ -22,15 +22,37 @@
 
         <section class="contenido-seccion">
             <ul id="lista-contactos">
-                <li class="contacto-container">Ana <p class="ptelefono">5555-6666</p><button class="btn1">Detalles</button></li>
-                <li class="contacto-container">David <p class="ptelefono">9999-0000</p><button class="btn2">Detalles</button></li>
-                <li class="contacto-container">Elena <p class="ptelefono">1234-5678</p><button class="btn3">Detalles</button></li>
-                <li class="contacto-container">Gabriel <p class="ptelefono">4567-8901</p><button class="btn4">Detalles</button></li>
-                <li class="contacto-container">Isabel <p class="ptelefono">2345-6789</p><button class="btn5">Detalles</button></li>   
+                <li class="contacto-container">Ana <p class="ptelefono">5555-6666</p><button class="detalle-btn1">Detalles</button></li>
+                <li class="contacto-container">David <p class="ptelefono">9999-0000</p><button class="detalle-btn2">Detalles</button></li>
+                <li class="contacto-container">Elena <p class="ptelefono">1234-5678</p><button class="detalle-btn3">Detalles</button></li>
+                <li class="contacto-container">Gabriel <p class="ptelefono">4567-8901</p><button class="detalle-btn4">Detalles</button></li>
+                <li class="contacto-container">Isabel <p class="ptelefono">2345-6789</p><button class="detalle-btn5">Detalles</button></li>   
             </ul>
 
             <button id="agregar-contacto">Agregar Nuevo Contacto</button>
         </section>
+        <div id="ventana-agregar-contacto" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Agregar Nuevo Contacto</h2>
+                <form id="formulario-contacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+        
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+        
+                    <label for="telefono-casa">Teléfono Casa:</label>
+                    <input type="text" id="telefono-casa" name="telefono-casa" required>
+        
+                    <label for="telefono-empresa">Teléfono Empresa:</label>
+                    <input type="text" id="telefono-empresa" name="telefono-empresa" required>
+        
+                    <button type="submit">Agregar Contacto</button>
+                </form>
+            </div>
+        </div>
+        
 
 <script src="../Js/contactos.js"></script>
 </body>

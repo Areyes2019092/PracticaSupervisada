@@ -61,26 +61,11 @@ ul {
     margin: 0 10px;
 }
 
-.detalle-btn1, .detalle-btn2, .detalle-btn3, .detalle-btn4, .detalle-btn5 {
-    background-color: #333; 
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
-
-.detalle-btn1:hover, .detalle-btn2:hover, .detalle-btn3:hover, .detalle-btn4:hover, .detalle-btn5:hover {
-    background-color: #555; 
-}
 
 
 #agregar-contacto {
-    background-color: #2ecc71;
+    background-color: #e2e536;
     color: #fff;
     border: none;
     padding: 10px;
@@ -88,3 +73,85 @@ ul {
     cursor: pointer;
 }
 
+
+#agregar-contacto:hover {
+    background-color: #cc6600; 
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(191, 199, 191, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+#formulario-contacto {
+    margin-top: 20px;
+}
+
+#formulario-contacto input[type="text"],
+#formulario-contacto input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+#formulario-contacto button[type="submit"] {
+    background-color: #f8af41;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#formulario-contacto button[type="submit"]:hover {
+    background-color: #a1722a;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(211, 218, 238, 0.4);
+    color: rgb(26, 26, 26);
+    border-radius: 10px;
+}
+
+.modal-content {
+    background-color: #e0e0e0;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.detalles {
+    display: none;
+    width: 100%;
+}
+
+.detalles p {
+    margin: 5px 0;
+}
